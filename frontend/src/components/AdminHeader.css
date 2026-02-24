@@ -1,0 +1,42 @@
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #111;
+    color: white;
+}
+
+.admin-logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.admin-nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.admin-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.admin-nav a:hover {
+    color: #f39c12;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    border: none;
+    padding: 6px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}

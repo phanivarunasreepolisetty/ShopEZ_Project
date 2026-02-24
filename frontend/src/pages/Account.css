@@ -1,0 +1,36 @@
+.account-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.account-card {
+    width: 400px;
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-box {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.logout-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

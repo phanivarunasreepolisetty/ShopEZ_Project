@@ -1,0 +1,43 @@
+.dashboard-container {
+    padding: 50px;
+    background-color: #2f3b46;
+    min-height: 100vh;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background-color: #111;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background: transparent;
+    border: 1px solid orange;
+    color: orange;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: orange;
+    color: black;
+}

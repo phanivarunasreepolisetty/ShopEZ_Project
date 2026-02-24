@@ -1,0 +1,30 @@
+.orders-container {
+    padding: 40px;
+}
+
+.order-box {
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.order-content {
+    display: flex;
+    gap: 30px;
+}
+
+.order-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.order-details {
+    flex: 1;
+}
+
+.order-details p {
+    margin: 4px 0;
+}

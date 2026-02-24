@@ -1,0 +1,55 @@
+.landing {
+    height: 100vh;
+    width: 100%;
+    background: url("https://images.unsplash.com/photo-1607082350899-7e105aa886ae") no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+}
+
+.landing-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    max-width: 700px;
+}
+
+.landing-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.landing-content span {
+    color: #ffd700;
+}
+
+.landing-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.start-btn {
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    background: #ffd700;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.start-btn:hover {
+    background: white;
+    transform: scale(1.05);
+}
